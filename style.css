@@ -1,0 +1,28 @@
+
+.grid-container{
+	display: grid;
+	gap:10px;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+.card{
+	width:20rem;
+	display: flex;
+}
+
+.collapse.navbar-collapse::before{
+	background: #000;
+/*	background: linear-gradient(#e3e3e3, #000, 80%);*/
+}
+
+.carousel-container{
+	max-width: 1000px;
+	margin: 20px auto;
+	justify-content: center;
+}
+
+.carousel-container img {
+	height: 540px;
+	content: fit;
+}
